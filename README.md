@@ -11,7 +11,7 @@
 - 自分のニーズに照らし合わせて必要ないと感じたところは飛ばしています。
 
 ## 参考資料
-本チュートリアルに沿ったワークショップが開かれているようです。公式ウェブサイトは[こちら](http://www.sympy.org/scipy-2016-tutorial/)、チュートリアルに対応する問題集として[こちら](https://github.com/sympy/scipy-2016-tutorial)を参照ください。
+本チュートリアルに沿ったワークショップが開かれているようです。2016年度の公式ウェブサイトは[こちら](http://www.sympy.org/scipy-2016-tutorial/)、チュートリアルに対応する問題集として[こちら](https://github.com/sympy/scipy-2016-tutorial)を参照ください。
 
 ## ライセンス
 [MITライセンス](https://ja.wikipedia.org/wiki/MIT_License)

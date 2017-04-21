@@ -10,6 +10,9 @@
 - 章番号は羅列どおり、小節番号はそれぞれ対応させています。
 - 自分のニーズに照らし合わせて必要ないと感じたところは飛ばしています。
 
+## 参考資料
+本チュートリアルに沿ったワークショップが開かれているようです。公式ウェブサイトは[こちら](http://www.sympy.org/scipy-2016-tutorial/)、チュートリアルに対応する問題集として[こちら](https://github.com/sympy/scipy-2016-tutorial)を参照ください。
+
 ## ライセンス
 [MITライセンス](https://ja.wikipedia.org/wiki/MIT_License)
 

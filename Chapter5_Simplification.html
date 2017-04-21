@@ -11811,7 +11811,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>どんなSympyの関数もsimplify()で簡単な形にできる!:</p>
+<p><code>sympy</code>のどんな数式も<code>simplify()</code>で簡単な形にできる！:</p>
 
 </div>
 </div>
@@ -11954,7 +11954,7 @@ $$x^{2} + 2 x + 1$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>---&gt; 因数分解できない!!! 因数分解はfactor()関数を使う:</p>
+<p>---&gt; <strong>因数分解できない!!!</strong> 因数分解は<code>factor()</code>関数を使う:</p>
 
 </div>
 </div>
@@ -12004,7 +12004,7 @@ $$\left(x + 1\right)^{2}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>simplify()は遅い</p>
+<p><code>simplify()</code>は遅い</p>
 
 </div>
 </div>
@@ -12014,27 +12014,12 @@ $$\left(x + 1\right)^{2}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="&#35299;&#27770;&#31574;">&#35299;&#27770;&#31574;<a class="anchor-link" href="#&#35299;&#27770;&#31574;">&#182;</a></h4>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>●確実に式を簡単にしたいなら、その用途に応じた適切な関数を使うべき! simplify()'ある程度'簡単な形にまでしか変形できない.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>●インタラクティブシェルでsimplifyの挙動を見てから個別の関数を使って
-簡単にしよう.</p>
+<h4 id="&#35299;&#27770;&#31574;">&#35299;&#27770;&#31574;<a class="anchor-link" href="#&#35299;&#27770;&#31574;">&#182;</a></h4><ul>
+<li><p>確実に式を簡単にしたいなら、その用途に応じた適切な関数を使うべき! <code>simplify()</code>は「ある程度」簡単な形にまでしか変形できない.</p>
+</li>
+<li><p>インタラクティブシェルで<code>simplify</code>の挙動を見てから<strong>個別の関数</strong>(以下) を使って簡単にしよう.</p>
+</li>
+</ul>
 
 </div>
 </div>
@@ -12053,7 +12038,17 @@ $$\left(x + 1\right)^{2}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.2.1-expand">5.2.1 expand<a class="anchor-link" href="#5.2.1-expand">&#182;</a></h3>
+<h3 id="5.2.1-expand&#38306;&#25968;">5.2.1 <code>expand</code>&#38306;&#25968;<a class="anchor-link" href="#5.2.1-expand&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>多項式を展開し、必要ならば項をキャンセルする.</p>
+
 </div>
 </div>
 </div>
@@ -12155,8 +12150,7 @@ $$-2$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>※式のキャンセルできれいになることが期待できる.</p>
-
+<h3 id="5.2.2-factor&#38306;&#25968;">5.2.2 <code>factor</code>&#38306;&#25968;<a class="anchor-link" href="#5.2.2-factor&#38306;&#25968;">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -12165,7 +12159,8 @@ $$-2$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.2.2-factor">5.2.2 factor<a class="anchor-link" href="#5.2.2-factor">&#182;</a></h3>
+<p>数式を可能な限り因数分解する</p>
+
 </div>
 </div>
 </div>
@@ -12267,7 +12262,7 @@ $$\left ( 1, \quad \left [ \left ( z, \quad 1\right ), \quad \left ( x + 2 y, \q
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="&#19977;&#35282;&#38306;&#25968;&#31243;&#24230;&#12398;&#24335;&#12394;&#12425;&#12289;factor,-expand&#21487;&#33021;">&#19977;&#35282;&#38306;&#25968;&#31243;&#24230;&#12398;&#24335;&#12394;&#12425;&#12289;factor, expand&#21487;&#33021;<a class="anchor-link" href="#&#19977;&#35282;&#38306;&#25968;&#31243;&#24230;&#12398;&#24335;&#12394;&#12425;&#12289;factor,-expand&#21487;&#33021;">&#182;</a></h4>
+<h4 id="&#19977;&#35282;&#38306;&#25968;&#31243;&#24230;&#12398;&#24335;&#12394;&#12425;&#12289;&#38306;&#25968;factor,-expand&#12391;&#23550;&#24540;&#21487;&#33021;">&#19977;&#35282;&#38306;&#25968;&#31243;&#24230;&#12398;&#24335;&#12394;&#12425;&#12289;&#38306;&#25968;<code>factor</code>, <code>expand</code>&#12391;&#23550;&#24540;&#21487;&#33021;<a class="anchor-link" href="#&#19977;&#35282;&#38306;&#25968;&#31243;&#24230;&#12398;&#24335;&#12394;&#12425;&#12289;&#38306;&#25968;factor,-expand&#12391;&#23550;&#24540;&#21487;&#33021;">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -12338,7 +12333,17 @@ $$\left(\sin{\left (x \right )} + \cos{\left (x \right )}\right)^{2}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.2.3-collect">5.2.3 collect<a class="anchor-link" href="#5.2.3-collect">&#182;</a></h3>
+<h3 id="5.2.3-collect&#38306;&#25968;">5.2.3 <code>collect</code>&#38306;&#25968;<a class="anchor-link" href="#5.2.3-collect&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>特定の変数でまとめたり、特定次の係数を取り出す.</p>
+
 </div>
 </div>
 </div>
@@ -12466,7 +12471,17 @@ $$- z + 2$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.2.4-cancel">5.2.4 cancel<a class="anchor-link" href="#5.2.4-cancel">&#182;</a></h3>
+<h3 id="5.2.4-cancel&#38306;&#25968;">5.2.4 <code>cancel</code>&#38306;&#25968;<a class="anchor-link" href="#5.2.4-cancel&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>有理式を簡単にする</p>
+
 </div>
 </div>
 </div>
@@ -12475,7 +12490,7 @@ $$- z + 2$$
 <div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cancel</span><span class="p">((</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span><span class="p">))</span> <span class="c1">#有理式を簡単にする</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cancel</span><span class="p">((</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span><span class="p">))</span> 
 </pre></div>
 
 </div>
@@ -12718,8 +12733,7 @@ $$\frac{\left(y - z\right)^{2}}{x - 1}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>たいていこれらの関数を使うときは有理数を簡単にしたいだけなので、
-因数分解までは必要ない ---&gt; cancel()のほうが効率的</p>
+<p><strong>コメント</strong>たいていこれらの関数を使うときは有理数を簡単にしたいだけなので、因数分解までは必要ない ---&gt; <code>cancel()</code>のほうが効率的</p>
 
 </div>
 </div>
@@ -12729,7 +12743,17 @@ $$\frac{\left(y - z\right)^{2}}{x - 1}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.2.5-apart">5.2.5 apart<a class="anchor-link" href="#5.2.5-apart">&#182;</a></h3>
+<h3 id="5.2.5-apart&#38306;&#25968;">5.2.5 apart&#38306;&#25968;<a class="anchor-link" href="#5.2.5-apart&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>有理式(分数)を部分分数分解する</p>
+
 </div>
 </div>
 </div>
@@ -12738,7 +12762,8 @@ $$\frac{\left(y - z\right)^{2}}{x - 1}$$
 <div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">expr</span> <span class="o">=</span> <span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">21</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">10</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">12</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">4</span> <span class="o">+</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">)</span>
+<span class="n">expr</span> <span class="o">=</span> <span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">21</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">10</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">12</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">4</span> <span class="o">+</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12782,7 +12807,7 @@ $$\frac{4 x^{3} + 21 x^{2} + 10 x + 12}{x^{4} + 5 x^{3} + 5 x^{2} + 4 x}$$
 <div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">apart</span><span class="p">(</span><span class="n">expr</span><span class="p">)</span> <span class="c1">#分数を部分分数分解する</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">apart</span><span class="p">(</span><span class="n">expr</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12822,7 +12847,7 @@ $$\frac{2 x - 1}{x^{2} + x + 1} - \frac{1}{x + 4} + \frac{3}{x}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>コメント: 逆三角関数は頭にaを付ける:</p>
+<p><strong>コメント</strong>: 逆三角関数は頭に<code>a</code>を付ける:</p>
 
 </div>
 </div>
@@ -12925,7 +12950,17 @@ $$\frac{\pi}{2}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.3.1-trigsimp">5.3.1 trigsimp<a class="anchor-link" href="#5.3.1-trigsimp">&#182;</a></h3>
+<h3 id="5.3.1-trigsimp&#38306;&#25968;">5.3.1 trigsimp&#38306;&#25968;<a class="anchor-link" href="#5.3.1-trigsimp&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>三角関数の表式を、公式を用いて可能な限りシンプルな形にする.</p>
+
 </div>
 </div>
 </div>
@@ -13058,7 +13093,17 @@ $$1$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.3.2-expand_trig">5.3.2 expand_trig<a class="anchor-link" href="#5.3.2-expand_trig">&#182;</a></h3>
+<h3 id="5.3.2-expand_trig&#38306;&#25968;">5.3.2 expand_trig&#38306;&#25968;<a class="anchor-link" href="#5.3.2-expand_trig&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>三角関数の式を展開する. trigsimpとexpand_trigは完全に逆の操作をする</p>
+
 </div>
 </div>
 </div>
@@ -13129,16 +13174,6 @@ $$\frac{2 \tan{\left (x \right )}}{- \tan^{2}{\left (x \right )} + 1}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>コメント: trigsimpとexpand_trigは完全に逆の操作をする</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="5.4-&#12409;&#12365;&#20055;">5.4 &#12409;&#12365;&#20055;<a class="anchor-link" href="#5.4-&#12409;&#12365;&#20055;">&#182;</a></h2>
 </div>
 </div>
@@ -13187,7 +13222,7 @@ $$\frac{2 \tan{\left (x \right )}}{- \tan^{2}{\left (x \right )} + 1}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>コメント: sqrt(x)とx^Rational(1,2), x^0.5, x^(1/2)は同じ</p>
+<p><strong>コメント</strong>: <code>sqrt(x)</code>と<code>x**Rational(1,2)</code>, <code>x**0.5</code>, <code>x**(1/2)</code>は同じ</p>
 
 </div>
 </div>
@@ -13321,7 +13356,17 @@ $$x^{0.5}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.4.1-powsimp">5.4.1 powsimp<a class="anchor-link" href="#5.4.1-powsimp">&#182;</a></h3>
+<h3 id="5.4.1-powsimp&#38306;&#25968;">5.4.1 powsimp&#38306;&#25968;<a class="anchor-link" href="#5.4.1-powsimp&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>冪が変数(<code>Sympy</code>オブジェクト)のときに限り、シンプルな形にする</p>
+
 </div>
 </div>
 </div>
@@ -13474,7 +13519,7 @@ $$\left(t z\right)^{c}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>とする. t もしくは z が負になっても強制的にこの変形は行われる.</p>
+<p>とする. <code>t</code> もしくは <code>z</code> が負になっても強制的にこの変形は行われる.</p>
 
 </div>
 </div>
@@ -13546,7 +13591,7 @@ $$\sqrt{x} \sqrt{y}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>このような式に対してはpowsimpは使えない:</p>
+<p><strong>注意</strong> このような式に対しては<code>powsimp</code>は使えない:</p>
 
 </div>
 </div>
@@ -13556,7 +13601,7 @@ $$\sqrt{x} \sqrt{y}$$
 <div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">powsimp</span><span class="p">(</span><span class="n">z</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">t</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">powsimp</span><span class="p">(</span><span class="n">z</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">t</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="c1">#指数が整数</span>
 </pre></div>
 
 </div>
@@ -13628,7 +13673,17 @@ $$\sqrt{x} \sqrt{y}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.4.2-expand_power_expr-/-expand_power_base">5.4.2 expand_power_expr / expand_power_base<a class="anchor-link" href="#5.4.2-expand_power_expr-/-expand_power_base">&#182;</a></h3>
+<h3 id="5.4.2-expand_power_expr&#38306;&#25968;,-expand_power_base&#38306;&#25968;">5.4.2 <code>expand_power_expr</code>&#38306;&#25968;, <code>expand_power_base</code>&#38306;&#25968;<a class="anchor-link" href="#5.4.2-expand_power_expr&#38306;&#25968;,-expand_power_base&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>べき乗を展開する. <code>powsimp</code>関数と逆の操作</p>
+
 </div>
 </div>
 </div>
@@ -13699,7 +13754,7 @@ $$x^{a} y^{a}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>これもpowsimp()と同様で、変形できないときは元の式を返す:</p>
+<p><strong>注意</strong> これも<code>powsimp()</code>と同様で、変形できないときは元の式を返す:</p>
 
 </div>
 </div>
@@ -13740,7 +13795,7 @@ $$\left(t z\right)^{c}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>tzが正という条件をsymbolsでつけていれば展開できるが、
+<p><code>tz</code>が正という条件を<code>symbols</code>でつけていれば展開できるが、
 今回のようにそうと限らないときは展開してくれない. 強制的に行うには</p>
 
 </div>
@@ -13864,7 +13919,17 @@ $$x^{5}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.4.3-powdenest">5.4.3 powdenest<a class="anchor-link" href="#5.4.3-powdenest">&#182;</a></h3>
+<h3 id="5.4.3-powdenest&#38306;&#25968;">5.4.3 powdenest&#38306;&#25968;<a class="anchor-link" href="#5.4.3-powdenest&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>べき乗のべき乗を展開</p>
+
 </div>
 </div>
 </div>
@@ -14098,6 +14163,16 @@ $$\log{\left (x \right )}$$
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>対数関数を展開する</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[70]:</div>
@@ -14258,7 +14333,7 @@ $$\log{\left (t z \right )}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>これまでと同様にして、正でない変数は展開できないので、そのときはForce=Trueオプションを付ける。</p>
+<p><strong>注意</strong> これまでと同様にして、正でない変数は展開できないので、そのときは<code>Force=True</code>オプションを付ける。</p>
 
 </div>
 </div>
@@ -14330,7 +14405,17 @@ $$2 \log{\left (z \right )}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.5.2-logcombine">5.5.2 logcombine<a class="anchor-link" href="#5.5.2-logcombine">&#182;</a></h3>
+<h3 id="5.5.2-logcombine&#38306;&#25968;">5.5.2 logcombine&#38306;&#25968;<a class="anchor-link" href="#5.5.2-logcombine&#38306;&#25968;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>対数関数をシンプルにする.</p>
+
 </div>
 </div>
 </div>
@@ -14533,21 +14618,12 @@ $$n!$$
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.6.2-&#32068;&#12415;&#21512;&#12431;&#12379;&#25968;(Combination)">5.6.2 &#32068;&#12415;&#21512;&#12431;&#12379;&#25968;(Combination)<a class="anchor-link" href="#5.6.2-&#32068;&#12415;&#21512;&#12431;&#12379;&#25968;(Combination)">&#182;</a></h3>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">binomial</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span> <span class="c1">#nCk</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">factorial</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -14564,7 +14640,7 @@ $$n!$$
 
 
 <div class="output_latex output_subarea output_execute_result">
-$${\binom{n}{k}}$$
+$$3628800$$
 </div>
 
 </div>
@@ -14572,13 +14648,22 @@ $${\binom{n}{k}}$$
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="5.6.2-&#32068;&#12415;&#21512;&#12431;&#12379;&#25968;(Combination)">5.6.2 &#32068;&#12415;&#21512;&#12431;&#12379;&#25968;(Combination)<a class="anchor-link" href="#5.6.2-&#32068;&#12415;&#21512;&#12431;&#12379;&#25968;(Combination)">&#182;</a></h3>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">combsimp</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">/</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">3</span><span class="p">))</span> <span class="c1">#シンプルにする</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">binomial</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span> <span class="c1">#nCk</span>
 </pre></div>
 
 </div>
@@ -14595,7 +14680,7 @@ $${\binom{n}{k}}$$
 
 
 <div class="output_latex output_subarea output_execute_result">
-$$n \left(n - 2\right) \left(n - 1\right)$$
+$${\binom{n}{k}}$$
 </div>
 
 </div>
@@ -14607,6 +14692,37 @@ $$n \left(n - 2\right) \left(n - 1\right)$$
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">combsimp</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">/</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">3</span><span class="p">))</span> <span class="c1">#シンプルにする</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[86]:</div>
+
+
+
+<div class="output_latex output_subarea output_execute_result">
+$$n \left(n - 2\right) \left(n - 1\right)$$
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">combsimp</span><span class="p">(</span><span class="n">binomial</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="n">binomial</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">))</span>
@@ -14621,7 +14737,7 @@ $$n \left(n - 2\right) \left(n - 1\right)$$
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[86]:</div>
+<div class="prompt output_prompt">Out[87]:</div>
 
 
 
@@ -14646,7 +14762,7 @@ $$\frac{n + 1}{k + 1}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gamma</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
@@ -14661,7 +14777,7 @@ $$\frac{n + 1}{k + 1}$$
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[87]:</div>
+<div class="prompt output_prompt">Out[88]:</div>
 
 
 
@@ -14677,7 +14793,7 @@ $$\Gamma{\left(z \right)}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">combsimp</span><span class="p">(</span><span class="n">gamma</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="n">gamma</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">x</span><span class="p">))</span> <span class="c1">#ガンマ関数にも使える</span>
@@ -14692,7 +14808,7 @@ $$\Gamma{\left(z \right)}$$
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[88]:</div>
+<div class="prompt output_prompt">Out[89]:</div>
 
 
 
@@ -14717,7 +14833,7 @@ $$\frac{\pi}{\sin{\left (\pi x \right )}}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[90]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hyper</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">z</span><span class="p">)</span>
@@ -14732,7 +14848,7 @@ $$\frac{\pi}{\sin{\left (\pi x \right )}}$$
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[89]:</div>
+<div class="prompt output_prompt">Out[90]:</div>
 
 
 
@@ -14757,7 +14873,7 @@ $${{}_{2}F_{1}\left(\begin{matrix} 1, 2 \\ 3 \end{matrix}\middle| {z} \right)}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[91]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tan</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">rewrite</span><span class="p">(</span><span class="n">sin</span><span class="p">)</span> <span class="c1">#tanをsinで書き換える</span>
@@ -14772,7 +14888,7 @@ $${{}_{2}F_{1}\left(\begin{matrix} 1, 2 \\ 3 \end{matrix}\middle| {z} \right)}$$
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[90]:</div>
+<div class="prompt output_prompt">Out[91]:</div>
 
 
 
@@ -14788,7 +14904,7 @@ $$\frac{2 \sin^{2}{\left (x \right )}}{\sin{\left (2 x \right )}}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="prompt input_prompt">In&nbsp;[92]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">factorial</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">rewrite</span><span class="p">(</span><span class="n">gamma</span><span class="p">)</span> <span class="c1">#階乗をガンマ関数で書き換える</span>
@@ -14803,7 +14919,7 @@ $$\frac{2 \sin^{2}{\left (x \right )}}{\sin{\left (2 x \right )}}$$
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[91]:</div>
+<div class="prompt output_prompt">Out[92]:</div>
 
 
 
@@ -14828,7 +14944,7 @@ $$\Gamma{\left(x + 1 \right)}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="prompt input_prompt">In&nbsp;[93]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">expand_func</span><span class="p">(</span><span class="n">gamma</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">3</span><span class="p">))</span>
@@ -14843,7 +14959,7 @@ $$\Gamma{\left(x + 1 \right)}$$
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[92]:</div>
+<div class="prompt output_prompt">Out[93]:</div>
 
 
 

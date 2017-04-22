@@ -12,6 +12,11 @@
 
 - 便宜上htmlファイルも公開していますが、まれにオリジナルファイルipynbと内容が異なることがあります。そのためipynbのほうを優先的に参照していただけると嬉しいです。
 
+## 環境
+MacOS, Anaconda, Python3
+インストール先は
+/usr/local/anaconda3 以下
+
 ## 参考資料
 本チュートリアルに沿ったワークショップが開かれているようです。2016年度の公式ウェブサイトは[こちら](http://www.sympy.org/scipy-2016-tutorial/)、チュートリアルに対応する問題集として[こちら](https://github.com/sympy/scipy-2016-tutorial)を参照ください。
 

@@ -1,7 +1,0 @@
-build/
-source/
-scipy-2016-tutorial-master
-make.bat
-Makefile
-./.gitignore
-./.DS_Store

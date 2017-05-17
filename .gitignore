@@ -1,3 +1,7 @@
 scipy-2016-tutorial-master/
 .ipynb_checkpoints/
 .gitignore
+source/
+build/
+Makefile
+make.bat

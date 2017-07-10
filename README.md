@@ -1,11 +1,6 @@
 # SymPy Tutorial　日本語ノート
 このリポジトリでは、私がSympyチュートリアルを勉強した際に作成したjupyter notebookとhtmlを管理しています。このノートは公式日本語訳ではないのですが、[SymPy Tutorial 1.0](http://docs.sympy.org/latest/tutorial/index.html)が英語でのみ公開されているので、ここで日本語で書いた自分のノートを公開する意義があると感じました。
 
-
-## お知らせ
-2017/05/17
-個人的にiPynbだけでは読みにくいと感じたので、Sphinxを用いてGithubpagesを作ってみました。URLは[こちら](https://hiroyuki827.github.io/SymPy_tutorial_site/).　まだまだ未完成ではありますが、よろしくお願いします.
-
 ## 注意点
 その上で、参照していただく際には以下の点にご注意いただきたく思います。
 

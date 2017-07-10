@@ -1,5 +1,5 @@
 # SymPy Tutorial　日本語ノート
-このリポジトリでは、私 (渕上紘行) がSympyチュートリアルを勉強した際に作成したjupyter notebookとhtmlを管理しています。このノートは公式日本語訳ではないのですが、[SymPy Tutorial 1.0](http://docs.sympy.org/latest/tutorial/index.html)が英語でのみ公開されているので、ここで日本語で書いた自分のノートを公開する意義があると感じました。
+このリポジトリでは、私がSympyチュートリアルを勉強した際に作成したjupyter notebookとhtmlを管理しています。このノートは公式日本語訳ではないのですが、[SymPy Tutorial 1.0](http://docs.sympy.org/latest/tutorial/index.html)が英語でのみ公開されているので、ここで日本語で書いた自分のノートを公開する意義があると感じました。
 
 
 ## お知らせ

@@ -9,6 +9,7 @@
 - 私自身が必要だと感じているところは、自分でコードを補っています。ところによっては、わざとエラーを発生させてエラーコードを見ています。
 - 章番号は羅列どおり、小節番号はそれぞれ対応させています。
 - 自分のニーズに照らし合わせて必要ないと感じたところは飛ばしています。
+- **この製品は、「 SymPy Development Team」によって開発されたソフトウェアが含まれています。**
 
 ## 環境
 MacOS, Anaconda, Python3
@@ -17,9 +18,6 @@ MacOS, Anaconda, Python3
 
 ## 参考資料
 本チュートリアルに沿ったワークショップが開かれているようです。2016年度の公式ウェブサイトは[こちら](http://www.sympy.org/scipy-2016-tutorial/)、チュートリアルに対応する問題集として[こちら](https://github.com/sympy/scipy-2016-tutorial)を参照ください。
-
-## ライセンス
-[MITライセンス](https://ja.wikipedia.org/wiki/MIT_License)
 
 ## 作成者
 

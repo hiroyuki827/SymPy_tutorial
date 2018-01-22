@@ -1,6 +1,6 @@
 # SymPy Tutorial　日本語ノート
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/hiroyuki827/SymPy_tutorial/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/hiroyuki827/SymPy_tutorial/blob/master/LICENSE)
 
 このリポジトリでは、私がSympyチュートリアルを勉強した際に作成したjupyter notebookとhtmlを管理しています。このノートは公式日本語訳ではないのですが、[SymPy Tutorial 1.0](http://docs.sympy.org/latest/tutorial/index.html)が英語でのみ公開されているので、ここで日本語で書いた自分のノートを公開する意義があると感じました。
 
@@ -25,4 +25,3 @@ MacOS, Anaconda, Python3
 ## 作成者
 
 RWTH アーヘン工科大学　渕上紘行
-
